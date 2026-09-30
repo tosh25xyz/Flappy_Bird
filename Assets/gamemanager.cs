@@ -6,6 +6,8 @@ public class gamemanager : MonoBehaviour
     public GameObject startMenu;      // Canvas > StartMenu
     public GameObject scoreText;      // Canvas > Text (Legacy)
     public GameObject birdSprite; // FLAPPY BIRD PROJECT er SpriteRenderer
+    public GameObject highScore;
+    public GameObject background;
     //public GameObject Maincamera;
     void Start()
     {
@@ -13,7 +15,8 @@ public class gamemanager : MonoBehaviour
         startMenu.SetActive(true);
         scoreText.SetActive(false);
         birdSprite.SetActive(false);   // bird lukiye rakho
-        //Maincamera.SetActive(false);
+        highScore.SetActive(false);
+       // background.SetActive(false);
     }
 
     public void StartGame()           // Start button er OnClick-e
@@ -21,6 +24,8 @@ public class gamemanager : MonoBehaviour
         startMenu.SetActive(false);
         scoreText.SetActive(true);
         birdSprite.SetActive(true);
+        highScore.SetActive(true);
+       // background.SetActive(true);
         //Maincamera.SetActive(true);
         Time.timeScale = 1f;          // game chalu
     }
