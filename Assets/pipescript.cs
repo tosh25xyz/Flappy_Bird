@@ -8,10 +8,12 @@ public class pipescript : MonoBehaviour
     public float spawnrate = 2;
     private float time = 0;
     public float highest = 10;
+    public logic mylogic;
+    public bool spawn = true;
     void Start()
     {
 
-        spawnpipe();
+        mylogic = GameObject.FindGameObjectWithTag("logic").GetComponent<logic>();
     }
 
     // Update is called once per frame
@@ -21,7 +23,7 @@ public class pipescript : MonoBehaviour
         {
             time += Time.deltaTime;
         }
-        else
+        else if(spawn)
         {
             spawnpipe();
             time = 0;
@@ -32,6 +34,12 @@ public class pipescript : MonoBehaviour
     {
         float highestpoint = transform.position.y - highest;
         float lowestpoint = transform.position.y + highest;
+
         Instantiate(pipe, new Vector3(transform.position.x,Random.Range(lowestpoint,highestpoint),0), transform.rotation);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        mylogic.Gameover();
+        spawn = false;
     }
 }
