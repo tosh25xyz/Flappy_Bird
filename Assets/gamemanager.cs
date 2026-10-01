@@ -8,11 +8,12 @@ public class gamemanager : MonoBehaviour
     public GameObject birdSprite; // FLAPPY BIRD PROJECT er SpriteRenderer
     public GameObject highScore;
     public GameObject background;
+    public GameObject mapSelectionPanel;
     //public GameObject Maincamera;
     void Start()
     {
         Time.timeScale = 0f;          // pipe spawn, bird physics, sob freeze
-        startMenu.SetActive(true);
+        //startMenu.SetActive(true);
         scoreText.SetActive(false);
         birdSprite.SetActive(false);   // bird lukiye rakho
         highScore.SetActive(false);
@@ -21,12 +22,24 @@ public class gamemanager : MonoBehaviour
 
     public void StartGame()           // Start button er OnClick-e
     {
-        startMenu.SetActive(false);
+        //startMenu.SetActive(false);
         scoreText.SetActive(true);
         birdSprite.SetActive(true);
         highScore.SetActive(true);
+        mapSelectionPanel.SetActive(false);
        // background.SetActive(true);
         //Maincamera.SetActive(true);
         Time.timeScale = 1f;          // game chalu
+    }
+    public void OpenMapSelection()
+    {
+        startMenu.SetActive(false);
+        mapSelectionPanel.SetActive(true);
+    }
+
+    public void BackToStartMenu()
+    {
+        mapSelectionPanel.SetActive(false);
+        startMenu.SetActive(true);
     }
 }
