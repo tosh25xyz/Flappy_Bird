@@ -11,9 +11,12 @@ public class gamemanager : MonoBehaviour
     public GameObject mapSelectionPanel;
     public GameObject pipe2;
     public GameObject pipe1;
+    public GameObject pipe3;
     public GameObject bg1;
     public GameObject bg2;
-   
+    public GameObject bg3;
+    public GameObject cloud;
+
     //public GameObject Maincamera;
     void Start()
     {
@@ -26,37 +29,38 @@ public class gamemanager : MonoBehaviour
         pipe2.SetActive(false);
         bg1.SetActive(false);
         bg2.SetActive(false);
+        pipe3.SetActive(false);
+        bg3.SetActive(false);
+        cloud.SetActive(false);
         // background.SetActive(false);
     }
 
     public void StartGameMap1()           // Start button er OnClick-e
     {
-        //startMenu.SetActive(false);
+       
         scoreText.SetActive(true);
         birdSprite.SetActive(true);
         highScore.SetActive(true);
         pipe1.SetActive(true);
         mapSelectionPanel.SetActive(false);
-        pipe2.SetActive(false);
+        
         bg1.SetActive(true);
-        bg2.SetActive(false);
-        // background.SetActive(true);
-        //Maincamera.SetActive(true);
+        cloud.SetActive(true);
+
         Time.timeScale = 1f;          // game chalu
     }
     public void StartGameMap2()           // Start button er OnClick-e
     {
-        //startMenu.SetActive(false);
+        
         scoreText.SetActive(true);
         birdSprite.SetActive(true);
         highScore.SetActive(true);
         mapSelectionPanel.SetActive(false);
         pipe2.SetActive(true);
-        pipe1.SetActive(false);
-        bg1.SetActive(false);
+        cloud.SetActive(true);
+
         bg2.SetActive(true);
-        // background.SetActive(true);
-        //Maincamera.SetActive(true);
+        
         Time.timeScale = 1f;          // game chalu
     }
     public void StartGameMap3()           // Start button er OnClick-e
@@ -66,6 +70,10 @@ public class gamemanager : MonoBehaviour
         birdSprite.SetActive(true);
         highScore.SetActive(true);
         mapSelectionPanel.SetActive(false);
+        pipe3.SetActive(true);
+        cloud.SetActive(true);
+
+        bg3.SetActive(true);
         // background.SetActive(true);
         //Maincamera.SetActive(true);
         Time.timeScale = 1f;          // game chalu
