@@ -3,13 +3,31 @@ using UnityEngine;
 
 public class CoinCollect : MonoBehaviour
 {
+    private bool collected = false;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Check whether the bird touched the coin
+        if (collected)
+            return;
+
         if (other.CompareTag("Player") ||
             other.transform.root.CompareTag("Player"))
         {
-            Debug.Log("Coin Collected!");
+            collected = true;
+
+            CoinWallet wallet =
+                FindObjectOfType<CoinWallet>();
+
+            if (wallet != null)
+            {
+                wallet.AddCoins(1);
+            }
+            else
+            {
+                Debug.LogError(
+                    "CoinWallet not found in the scene!"
+                );
+            }
 
             Destroy(gameObject);
         }

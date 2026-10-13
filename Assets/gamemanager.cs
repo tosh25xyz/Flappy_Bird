@@ -16,6 +16,7 @@ public class gamemanager : MonoBehaviour
     public GameObject bg2;
     public GameObject bg3;
     public GameObject cloud;
+    public GameObject Cointext;
 
     //public GameObject Maincamera;
     void Start()
@@ -32,6 +33,7 @@ public class gamemanager : MonoBehaviour
         pipe3.SetActive(false);
         bg3.SetActive(false);
         cloud.SetActive(false);
+        Cointext.SetActive(false);
         // background.SetActive(false);
     }
 
@@ -46,7 +48,7 @@ public class gamemanager : MonoBehaviour
         
         bg1.SetActive(true);
         cloud.SetActive(true);
-
+        Cointext.SetActive(true);
         Time.timeScale = 1f;          // game chalu
     }
     public void StartGameMap2()           // Start button er OnClick-e
@@ -58,7 +60,7 @@ public class gamemanager : MonoBehaviour
         mapSelectionPanel.SetActive(false);
         pipe2.SetActive(true);
         cloud.SetActive(true);
-
+        Cointext.SetActive(true);
         bg2.SetActive(true);
         
         Time.timeScale = 1f;          // game chalu
@@ -72,7 +74,7 @@ public class gamemanager : MonoBehaviour
         mapSelectionPanel.SetActive(false);
         pipe3.SetActive(true);
         cloud.SetActive(true);
-
+        Cointext.SetActive(true);
         bg3.SetActive(true);
         // background.SetActive(true);
         //Maincamera.SetActive(true);
