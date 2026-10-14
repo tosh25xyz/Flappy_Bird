@@ -37,7 +37,7 @@ public class CoinAnimation : MonoBehaviour
         );
 
         // Destroy coin after it leaves the screen
-        if (transform.position.x < -12f)
+        if (transform.position.x < -40f)
         {
             Destroy(gameObject);
         }
