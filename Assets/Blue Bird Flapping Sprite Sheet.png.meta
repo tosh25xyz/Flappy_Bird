@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 5deb3f408a5fc304b8ffe524361ee890
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6891416290960916399
+    second: Blue Bird Flapping Sprite Sheet_0
+  - first:
+      213: -8878702501832141495
+    second: Blue Bird Flapping Sprite Sheet_1
+  - first:
+      213: 7024103297932223983
+    second: Blue Bird Flapping Sprite Sheet_2
+  - first:
+      213: -5212099429493866341
+    second: Blue Bird Flapping Sprite Sheet_3
+  - first:
+      213: 196913213778750400
+    second: Blue Bird Flapping Sprite Sheet_4
+  - first:
+      213: -3218200402666065329
+    second: Blue Bird Flapping Sprite Sheet_5
+  - first:
+      213: -629907888088811438
+    second: Blue Bird Flapping Sprite Sheet_6
+  - first:
+      213: 3913319789655889060
+    second: Blue Bird Flapping Sprite Sheet_7
+  - first:
+      213: 6744060292804740767
+    second: Blue Bird Flapping Sprite Sheet_8
+  - first:
+      213: -5060457776962837738
+    second: Blue Bird Flapping Sprite Sheet_9
+  - first:
+      213: 3751325301926008287
+    second: Blue Bird Flapping Sprite Sheet_10
+  - first:
+      213: 4910573692046333035
+    second: Blue Bird Flapping Sprite Sheet_11
+  - first:
+      213: -2138785715580110767
+    second: Blue Bird Flapping Sprite Sheet_12
+  - first:
+      213: -1660900155154432480
+    second: Blue Bird Flapping Sprite Sheet_13
+  - first:
+      213: 2941246828974273218
+    second: Blue Bird Flapping Sprite Sheet_14
+  - first:
+      213: 4570098038695344170
+    second: Blue Bird Flapping Sprite Sheet_15
+  - first:
+      213: 4639877459608112846
+    second: Blue Bird Flapping Sprite Sheet_16
+  - first:
+      213: 7450480078625442095
+    second: Blue Bird Flapping Sprite Sheet_17
+  - first:
+      213: -9094391685777140455
+    second: Blue Bird Flapping Sprite Sheet_18
+  - first:
+      213: -9168673520148727496
+    second: Blue Bird Flapping Sprite Sheet_19
+  - first:
+      213: 2690607456888831552
+    second: Blue Bird Flapping Sprite Sheet_20
+  - first:
+      213: 6796146270043533909
+    second: Blue Bird Flapping Sprite Sheet_21
+  - first:
+      213: -6158481231680508788
+    second: Blue Bird Flapping Sprite Sheet_22
+  - first:
+      213: -4330001771695474329
+    second: Blue Bird Flapping Sprite Sheet_23
+  - first:
+      213: -254070897976756331
+    second: Blue Bird Flapping Sprite Sheet_24
+  - first:
+      213: 8258552110123216379
+    second: Blue Bird Flapping Sprite Sheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Bird Flapping Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafb016ba9a33af50800000000000000
+      internalID: 6891416290960916399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Bird Flapping Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9455cefad1388c480800000000000000
+      internalID: -8878702501832141495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Bird Flapping Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe566e2fbb0aa7160800000000000000
+      internalID: 7024103297932223983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Bird Flapping Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90800b0f27eaa7b0800000000000000
+      internalID: -5212099429493866341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4c3661fd86840594eb034eb9f34ef4e7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":543.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Blue Bird Flapping Sprite Sheet_0: 6891416290960916399
+      Blue Bird Flapping Sprite Sheet_1: -8878702501832141495
+      Blue Bird Flapping Sprite Sheet_2: 7024103297932223983
+      Blue Bird Flapping Sprite Sheet_3: -5212099429493866341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

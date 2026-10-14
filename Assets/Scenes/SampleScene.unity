@@ -1585,7 +1585,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 401905623077232409, guid: b47f7d99d419a1d45a20ca6f79a7ea00, type: 3}
+  m_Sprite: {fileID: 6891416290960916399, guid: 5deb3f408a5fc304b8ffe524361ee890, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1654,6 +1654,13 @@ MonoBehaviour:
   flapstrength: 7
   mylogic: {fileID: 0}
   birdalive: 1
+  spriteRenderer: {fileID: 934725517}
+  frames:
+  - {fileID: 6891416290960916399, guid: 5deb3f408a5fc304b8ffe524361ee890, type: 3}
+  - {fileID: -8878702501832141495, guid: 5deb3f408a5fc304b8ffe524361ee890, type: 3}
+  - {fileID: 7024103297932223983, guid: 5deb3f408a5fc304b8ffe524361ee890, type: 3}
+  - {fileID: -5212099429493866341, guid: 5deb3f408a5fc304b8ffe524361ee890, type: 3}
+  frameRate: 0.12
 --- !u!58 &934725521
 CircleCollider2D:
   m_ObjectHideFlags: 0

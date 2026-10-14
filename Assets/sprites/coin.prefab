@@ -107,9 +107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea636ef4de57db4281f29b32187a1ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinAnimation
-  moveSpeed: 8
-  upDownAmount: 0.15
-  upDownSpeed: 2
+  moveSpeed: 10
+  upDownAmount: 0.3
+  upDownSpeed: 5
 --- !u!58 &6890472026549220694
 CircleCollider2D:
   m_ObjectHideFlags: 0
